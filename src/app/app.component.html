@@ -1,0 +1,24 @@
+
+
+<ng-container *ngIf="status">
+  <h1>Using ng-container</h1>
+  <ul *ngFor="let item of products">
+    <li>{{item.name}}</li>
+  </ul>
+  <hr>
+</ng-container>
+
+<div *ngIf="status">
+  <h1>Using Div</h1>
+  <ul *ngFor="let item of products">
+    <li>{{item.name}}</li>
+  </ul>
+</div>
+
+<hr>
+
+<ng-template #templateData>
+  Hello ng-template called and display...
+</ng-template>
+
+

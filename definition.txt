@@ -1,0 +1,10 @@
+Task-05
+ng-Container
+ng-Template
+
+
+01 : ng-Container
+	This is used when we want to multiple condition on same element.but angular not provide that facility so we add new div so it unnecessary div render. so we avoid that using ng-container. when we used ng-container then unnecessary html code will not display on inspect.
+
+02 : ng-template
+	It will not render by default. so we need to intruct to render ng-template using ViewContainerRef then it will be render in html/display.
